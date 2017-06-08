@@ -4,8 +4,19 @@ import io.appium.java_client.ios.IOSElement;
 
 public class FarmdropSO extends Screenobject {
 
-	public Boolean exists(String screenName) {
-		return checkElementDisplayed(waitUntillTappable(screenName));
+	public Boolean exists(String screenName)
+	{	
+		switch (screenName) {
+		case "Products":
+			return checkElementDisplayed(waitUntillTappable(productsScreen));
+		case "Reciepes":
+			return checkElementDisplayed(waitUntillTappable(reciepesScreen));
+		case "Account":
+			return checkElementDisplayed(waitUntillTappable(accountScreen));
+		case "Basket":
+			return checkElementDisplayed(waitUntillTappable(basketScreen));
+		}
+		return false;
 	}
 
 }

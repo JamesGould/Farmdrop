@@ -14,5 +14,5 @@ Examples:
 	|Products|
 	|Reciepes|
 	|Account|
-	|£0.00|
+	|Basket|
 

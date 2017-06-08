@@ -47,6 +47,22 @@ public class AppiumUtil extends Constants {
 		return caps;
 	}
 	
+	public static Boolean checkElementDisplayed(IOSElement element)
+    {
+    driver.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
+        try 
+        {
+        	Boolean b = element.isDisplayed();
+        	driver.manage().timeouts().implicitlyWait(IMPLICIT_TIME_SECONDS, TimeUnit.SECONDS);
+        	return b;
+        } 
+        catch (Exception e) 
+        {
+        	driver.manage().timeouts().implicitlyWait(IMPLICIT_TIME_SECONDS, TimeUnit.SECONDS);
+        	return false;
+        }        
+    }
+	
 	public static IOSElement waitUntillTappable(IOSElement element)
 	{
 		 WebDriverWait wait = new WebDriverWait(driver, 20);
