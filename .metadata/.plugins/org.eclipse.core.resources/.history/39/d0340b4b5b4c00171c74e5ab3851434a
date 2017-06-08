@@ -31,19 +31,3 @@ Scenario: Value of the basket is updated when an item is added
 Scenario: Items can be removed from the basket
 
 Scenario: Value of the basket is updated when an item is removed
-
-Scenario: Tapping on an item displays the details screen
-
-Scenario: Items can be searched for using the search bar
-
-Scenario: Products can be searched for by section
-
-Scenario: Producers can be searched for using the search bar
-
-Scenario: Producers can be search for by location
-
-Scenario: Account - Existing user can log in
-
-Scenario: Account - New users can sign up
-
-Scenario: Account - The Get in Touch screen can be opened
