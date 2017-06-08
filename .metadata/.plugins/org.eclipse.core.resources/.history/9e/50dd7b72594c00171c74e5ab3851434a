@@ -70,8 +70,4 @@ public class AppiumUtil extends Constants {
 		 return element;
 	}	
 	
-	public static void tap_button(IOSElement buttonName) {
-		waitUntillTappable(buttonName);
-		driver.tap(1, buttonName, 1);
-	}
 }

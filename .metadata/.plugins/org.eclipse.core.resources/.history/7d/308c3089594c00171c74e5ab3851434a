@@ -9,20 +9,6 @@ public class FarmdropSO extends Screenobject {
 		return checkElementDisplayed(waitUntillTappable(homeScreen));
 	}
 
-	public void tap_button(String buttonName) {
-
-		switch (buttonName) {
-		case "Products":
-			tap_button(productsButton);
-		case "Reciepes":
-			tap_button(reciepesButton);
-		case "Account":
-			tap_button(accountButton);
-		case "Basket":
-			tap_button(basketButton);
-		}
-	}
-	
 	public Boolean which_screen_displayed(String screenName)
 	{
 		switch (screenName) {

@@ -20,10 +20,10 @@ public class Constants {
 	@iOSFindBy(accessibility="Account") public IOSElement accountScreen;
 	@iOSFindBy(accessibility="Basket") public IOSElement basketScreen;
 	
-	@iOSFindBy(accessibility="Home_button") public IOSElement homeButton;
-	@iOSFindBy(accessibility="Products_button") public IOSElement productsButton;
-	@iOSFindBy(accessibility="Reciepes_button") public IOSElement reciepesButton;
-	@iOSFindBy(accessibility="Account_button") public IOSElement accountButton;
-	@iOSFindBy(accessibility="Basket_button") public IOSElement basketButton;
+	@iOSFindBy(accessibility="Home_button") public IOSElement homebutton;
+	@iOSFindBy(accessibility="Products_button") public IOSElement productsbutton;
+	@iOSFindBy(accessibility="Reciepes_button") public IOSElement reciepesbutton;
+	@iOSFindBy(accessibility="Account_button") public IOSElement accountbutton;
+	@iOSFindBy(accessibility="Basket_button") public IOSElement basketbutton;
 	
 }

@@ -22,24 +22,24 @@ public class FarmdropSteps extends AppiumUtil {
 	}
 	
 	@Then("^the Home screen will be displayed$")
-	public void home_screen_displayed()
+	public void home_screen_displayed(String screenName)
 	{
 		FarmdropSO screen = new FarmdropSO();
-		assertTrue(screen.exists());
+		assertTrue(screen.exists(screenName));
 	}
 
-	@When("^the Products button is tapped$")
+	When("^the Products button is tapped$")
 	public void button_tapped(String buttonName)
 	{
 		FarmdropSO screen = new FarmdropSO();
 		screen.tap_button(buttonName);
 	}
 
-	@Then("^the Products screen will be displayed$")
+	Then("^the Products screen will be displayed$")
 	public void screen_displayed(String screenName)	
 	{
 		FarmdropSO screen = new FarmdropSO();
-		assertTrue(screen.which_screen_displayed(screenName));
+		assertTrue(screen.exists(screenName));
 	}
 	
 }

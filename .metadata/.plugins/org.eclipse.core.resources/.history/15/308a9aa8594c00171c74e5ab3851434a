@@ -13,13 +13,13 @@ public class FarmdropSO extends Screenobject {
 
 		switch (buttonName) {
 		case "Products":
-			tap_button(productsButton);
+			tap_button(waitUntillTappable(productsButton));
 		case "Reciepes":
-			tap_button(reciepesButton);
+			tap_button(waitUntillTappable(reciepesButton));
 		case "Account":
-			tap_button(accountButton);
+			tap_button(waitUntillTappable(accountButton));
 		case "Basket":
-			tap_button(basketButton);
+			tap_button(waitUntillTappable(basketButton));
 		}
 	}
 	

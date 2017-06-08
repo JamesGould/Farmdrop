@@ -14,16 +14,9 @@ public class Constants {
 	public final static String BUNDLE_ID = "Farmdrop";
 //	public final static String UDID_ID = "d0d356bf32090885f60777853cd7d0f32bbccfa6";
 	
-	@iOSFindBy(accessibility="Home") public IOSElement homeScreen;
 	@iOSFindBy(accessibility="Products") public IOSElement productsScreen;
 	@iOSFindBy(accessibility="Reciepes") public IOSElement reciepesScreen;
 	@iOSFindBy(accessibility="Account") public IOSElement accountScreen;
 	@iOSFindBy(accessibility="Basket") public IOSElement basketScreen;
-	
-	@iOSFindBy(accessibility="Home_button") public IOSElement homeButton;
-	@iOSFindBy(accessibility="Products_button") public IOSElement productsButton;
-	@iOSFindBy(accessibility="Reciepes_button") public IOSElement reciepesButton;
-	@iOSFindBy(accessibility="Account_button") public IOSElement accountButton;
-	@iOSFindBy(accessibility="Basket_button") public IOSElement basketButton;
 	
 }
