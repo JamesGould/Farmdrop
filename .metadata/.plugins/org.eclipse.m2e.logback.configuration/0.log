@@ -1,0 +1,46 @@
+2017-06-08 13:55:09,924 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-06-08 13:55:43,744 [Worker-9] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' /Users/jamesgould/Documents/Farmdrop/farmdrop/pom.xml
+2017-06-08 13:55:44,415 [Worker-9] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: techtest:farmdrop:0.0.1-SNAPSHOT @ /Users/jamesgould/Documents/Farmdrop/farmdrop/pom.xml.
+2017-06-08 13:55:44,558 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /farmdrop/src/main/java
+2017-06-08 13:55:44,561 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /farmdrop/src/test/java
+2017-06-08 13:55:45,407 [Worker-9] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2017-06-08 13:55:46,109 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-08 13:55:46,109 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jamesgould/Documents/Farmdrop/farmdrop/src/main/resources
+2017-06-08 13:55:46,111 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-08 13:55:46,111 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jamesgould/Documents/Farmdrop/farmdrop/src/test/resources
+2017-06-08 13:57:06,131 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-08 13:57:06,132 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jamesgould/Documents/Farmdrop/farmdrop/src/main/resources
+2017-06-08 13:57:06,133 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-08 13:57:06,134 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jamesgould/Documents/Farmdrop/farmdrop/src/test/resources
+2017-06-08 13:57:43,330 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-08 13:57:43,330 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jamesgould/Documents/Farmdrop/farmdrop/src/main/resources
+2017-06-08 13:57:43,333 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-08 13:57:43,333 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jamesgould/Documents/Farmdrop/farmdrop/src/test/resources
+2017-06-08 13:58:43,020 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-08 13:58:43,020 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jamesgould/Documents/Farmdrop/farmdrop/src/main/resources
+2017-06-08 13:58:43,022 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-08 13:58:43,022 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jamesgould/Documents/Farmdrop/farmdrop/src/test/resources
+2017-06-08 13:58:55,550 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-08 13:58:55,550 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jamesgould/Documents/Farmdrop/farmdrop/src/main/resources
+2017-06-08 13:58:55,551 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-08 13:58:55,551 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jamesgould/Documents/Farmdrop/farmdrop/src/test/resources
+2017-06-08 13:59:13,505 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-08 13:59:13,505 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jamesgould/Documents/Farmdrop/farmdrop/src/main/resources
+2017-06-08 13:59:13,506 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-08 13:59:13,506 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jamesgould/Documents/Farmdrop/farmdrop/src/test/resources
+2017-06-08 13:59:32,633 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-08 13:59:32,633 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jamesgould/Documents/Farmdrop/farmdrop/src/main/resources
+2017-06-08 13:59:32,634 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-08 13:59:32,634 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jamesgould/Documents/Farmdrop/farmdrop/src/test/resources
+2017-06-08 14:00:37,712 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-08 14:00:37,712 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jamesgould/Documents/Farmdrop/farmdrop/src/main/resources
+2017-06-08 14:00:37,714 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-08 14:00:37,714 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jamesgould/Documents/Farmdrop/farmdrop/src/test/resources
+2017-06-08 14:01:05,790 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-08 14:01:05,790 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jamesgould/Documents/Farmdrop/farmdrop/src/main/resources
+2017-06-08 14:01:05,791 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-08 14:01:05,792 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jamesgould/Documents/Farmdrop/farmdrop/src/test/resources
+2017-06-08 14:02:36,850 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-08 14:02:36,850 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jamesgould/Documents/Farmdrop/farmdrop/src/main/resources
+2017-06-08 14:02:36,852 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-08 14:02:36,852 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jamesgould/Documents/Farmdrop/farmdrop/src/test/resources
