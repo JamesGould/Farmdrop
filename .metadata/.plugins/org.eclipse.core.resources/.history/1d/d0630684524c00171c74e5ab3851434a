@@ -1,0 +1,120 @@
+package techtest.farmdrop.constants;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+import io.appium.java_client.ios.IOSElement;
+import io.appium.java_client.pagefactory.iOSFindBy;
+
+public class Constants {
+
+	public final static String DEVICE_NAME = "Mobile Apps iPhone 6S+ (1)";
+//	public final static String DEVICE_NAME = "Trinity Mirror Dev iPhone 6+ (1)";
+	public final static String PLATFORM_VERSION = "10.2";
+//	public final static String PLATFORM_VERSION = "9.2";
+	public final static String BROWSER_NAME = "";
+	public final static String PLATFORM_NAME = "iphone";
+	public final static String APP_PATH = "/Users/jamesgould/Desktop/deploy20170119-16197-o5m7dv/Payload/Perspecs (Debug).app";
+	public final static String BUNDLE_ID = "Perspecs(D)";
+//	public final static String UDID_ID = "d0d356bf32090885f60777853cd7d0f32bbccfa6";
+	public final static String UDID_ID = "24882fed72dc7fac3e884d2e0a82c50f7e8de53f";
+	
+//	Onboarding
+	
+	@iOSFindBy(xpath="//UIAApplication[1]/UIAWindow[1]/UIAImage[1]") public IOSElement logo;
+	@iOSFindBy(accessibility="CONTINUE") public IOSElement continuebtn;
+	
+	@iOSFindBy(accessibility="UK") public IOSElement ukbox;
+	@iOSFindBy(accessibility="US") public IOSElement usbox;
+	@iOSFindBy(accessibility="UK ON") public IOSElement ukselectbox;
+	@iOSFindBy(accessibility="UK OFF") public IOSElement ukunselectbox;
+	@iOSFindBy(accessibility="US ON") public IOSElement usselectbox;
+	@iOSFindBy(accessibility="US OFF") public IOSElement usunselectbox;
+	
+//	Push Notifications
+	
+	@iOSFindBy(accessibility="“Perspecs(D)” Would Like to Send You Notifications") public IOSElement pushalert;
+	@iOSFindBy(accessibility="OK") public IOSElement pushOK;
+	@iOSFindBy(accessibility="Don’t Allow") public IOSElement pushDontAllow;
+	
+//	Main Menu
+	
+	@FindBy(xpath="//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIAStaticText[1]") public WebElement articletitle;
+	@iOSFindBy(accessibility="settings") public IOSElement settingsbtn;
+	@iOSFindBy(accessibility="b") public IOSElement sharebtn;
+	@FindBy(xpath="//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIAScrollView[2]/UIACollectionView[1]/UIACollectionCell[1]") public IOSElement article;
+	@iOSFindBy(accessibility="news") public IOSElement news;
+	@FindBy(xpath="//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIAScrollView[1]") public IOSElement topicbar;
+	@FindBy(xpath="//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIAStaticText[1]") public IOSElement leadarticle;
+	@iOSFindBy(accessibility="Should England be nervous?") public static IOSElement leadarticleheadline;
+	
+	@iOSFindBy(accessibility="ALL") public static IOSElement alltopic;
+	@FindBy(using="NEWS") public static IOSElement newstopic;
+	@iOSFindBy(accessibility="SPORT") public static IOSElement sporttopic;
+	@iOSFindBy(accessibility="TECH") public static IOSElement techtopic;
+	@iOSFindBy(accessibility="ENTERTAINMENT") public static IOSElement entertainmenttopic;
+	@iOSFindBy(accessibility="BUSINESS") public static IOSElement businesstopic;
+	@iOSFindBy(accessibility="POLITICS") public static IOSElement politicstopic;
+	@iOSFindBy(accessibility="HEALTH") public static IOSElement healthtopic;
+	
+	@iOSFindBy(accessibility="_all_") public static IOSElement alltopiclist;
+	@iOSFindBy(accessibility="news") public static IOSElement newstopiclist;
+	@iOSFindBy(accessibility="sport") public static IOSElement sporttopiclist;
+	@iOSFindBy(accessibility="tech") public static IOSElement techtopiclist;
+	@iOSFindBy(accessibility="entertainment") public static IOSElement entertainmenttopiclist;
+	@iOSFindBy(accessibility="business") public static IOSElement businesstopiclist;
+	@iOSFindBy(accessibility="politics") public static IOSElement politicstopiclist;
+	@iOSFindBy(accessibility="health") public static IOSElement healthtopiclist;
+	
+	@iOSFindBy(accessibility="READ") public static IOSElement articletotap;
+	
+	@iOSFindBy(accessibility="UK only article") public static IOSElement ukarticlelist;
+	@iOSFindBy(accessibility="US only article") public static IOSElement usarticlelist;
+	@iOSFindBy(accessibility="All Regions Article") public static IOSElement ukusarticlelist;
+	
+//	Settings
+	
+	@iOSFindBy(accessibility="Settings") public IOSElement settings;
+	@iOSFindBy(accessibility="Back") public IOSElement backbtn;
+	@iOSFindBy(accessibility="UK") public IOSElement ukregion;
+	@iOSFindBy(accessibility="US") public IOSElement usregion;
+	@iOSFindBy(accessibility="Notifications") public IOSElement notifications;
+	@iOSFindBy(accessibility="Feedback") public IOSElement feedback;
+	@iOSFindBy(accessibility="Feedback on Perspecs") public IOSElement feedbacktitle;
+	@iOSFindBy(accessibility="Settings") public IOSElement settingsprivacybtn;
+	@iOSFindBy(accessibility="Privacy Policy") public IOSElement privacypolicy;
+	@iOSFindBy(xpath="//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIAWebView[1]") public IOSElement privacypolicytitle;
+	@iOSFindBy(accessibility="Terms & Conditions") public IOSElement tcs;
+	@iOSFindBy(xpath="//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIAWebView[1]/UIAStaticText[2]") public IOSElement tcstitle;
+	@iOSFindBy(accessibility="Version: 1.0(3)") public IOSElement versionnumber;
+//	Version:\s\d.\d\S\d\D
+	
+//	Articles
+	
+	@iOSFindBy(accessibility="VIEW FULL ARTICLE") public IOSElement viewfullarticlebtn;
+	
+	//@FindBy(xpath="//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIAScrollView[2]/UIACollectionView[1]/UIACollectionCell[6]") public WebElement viewfullarticlebtn;
+	
+	@iOSFindBy(accessibility="Back") public IOSElement articlebackbtn;
+	@iOSFindBy(accessibility="The Bad") public IOSElement perspectiveonebtn;
+	@iOSFindBy(accessibility="The Other One") public IOSElement perspectivetwobtn;
+	@iOSFindBy(accessibility="The Good") public IOSElement perspectivethreebtn;
+	
+	@iOSFindBy(accessibility="UK Only Article") public IOSElement articleheadline;
+	
+	@iOSFindBy(accessibility="This article is for the UK region Only and goes in the news section.") public IOSElement articleleadtext;
+	
+	@iOSFindBy(accessibility="The Bad Content") public IOSElement perspectiveonecontent;
+	
+	@iOSFindBy(accessibility="The Other One") public IOSElement perspectivetwocontent;
+	
+	@iOSFindBy(accessibility="//text[contains(@name,'https://www.google.com')]") public IOSElement articlelink;
+	
+	@iOSFindBy(accessibility="Google") public IOSElement webviewcontent;
+	
+	@iOSFindBy(accessibility="The Good Content") public IOSElement perspectivethreecontent;
+	
+	@iOSFindBy(accessibility="https://www.google.com") public IOSElement articlecontentlink;
+
+	
+}

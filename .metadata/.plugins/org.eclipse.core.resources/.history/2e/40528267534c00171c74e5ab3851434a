@@ -1,0 +1,90 @@
+package com.perspecs.steps;
+
+import static org.junit.Assert.assertTrue;
+
+import com.perspecs.screenobjects.articleSO;
+import com.perspecs.util.AppiumUtil;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class ArticleScreenSteps extends AppiumUtil {
+	
+	@Given("^the article is swiped \"([^\"]*)\"$")
+	public void swipe_article(String SwipeDriection) throws InterruptedException
+	{
+		articleSO article = new articleSO();
+		article.swipe_article_direction(SwipeDriection);
+	}
+	
+	@When("^the view full article button is tapped$")
+	public void full_article_tap()
+	{
+		articleSO article = new articleSO();
+		article.full_article_tapped();
+	}
+	
+	@Then("the webview will be displayed$")
+	public void webview_exists()
+	{
+		articleSO article = new articleSO();
+		article.webview_exists();
+	}
+	
+		@Then("^the \"([^\"]*)\" content is displayed$")
+	public void no_displayed(String perspective)
+	{
+		articleSO article = new articleSO();
+		assertTrue(article.perspective_content_displayed(perspective));
+	}
+
+
+	@Given("^the article contains a link$") 
+	public void link_displayed()
+	{
+		articleSO article = new articleSO();
+		assertTrue(article.link_is_displayed());
+	}
+
+	@When("^the link is tapped$") 
+	public void link_is_tapped()
+	{
+		articleSO article = new articleSO();
+		article.link_tapped();
+	}
+
+	@Then("^the link will open$") 
+	public void link_is_displayed()
+	{
+		articleSO article = new articleSO();
+		assertTrue(article.link_displays());
+	}
+	
+	@When("the article Back button is tapped$")
+	public void article_back_button_tapped() throws InterruptedException
+	{
+		Thread.sleep(3000);
+		
+		articleSO article = new articleSO();
+		article.tap_article_back_button();
+	}
+	
+	@Given("^the article is swiped \"([^\"]*)\" three times$")
+	public void swipe_article_three_times(String SwipeDriection) throws InterruptedException
+	{
+		articleSO article = new articleSO();
+		article.swipe_article_direction(SwipeDriection);
+		article.swipe_article_direction(SwipeDriection);
+		article.swipe_article_direction(SwipeDriection);
+	}
+	 
+	
+//	@When("^the \"([^\"]*)\" button is tapped$")
+//	public void tap_no_button(String perspective)
+//	{
+//		articleSO article = new articleSO();
+//	    article.tap_perspective_button(perspective);
+//	}
+
+}

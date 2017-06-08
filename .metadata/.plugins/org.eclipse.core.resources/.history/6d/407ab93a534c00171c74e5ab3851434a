@@ -1,0 +1,77 @@
+package techtest.farmdrop.steps;
+
+import static org.junit.Assert.assertTrue;
+
+import java.net.MalformedURLException;
+
+import techtest.farmdrop.screenobjects.FarmdropSO;
+import techtest.farmdrop.util.AppiumUtil;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class FarmdropSteps extends AppiumUtil {
+
+	@Given("^the app has been installed$")
+	public void start_app() throws MalformedURLException
+	{
+		startApp();
+	}
+	
+	When("^the app is launched$", () -> {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	});
+//	
+//	Then("^the Home screen will be displayed$", () -> {
+//	    // Write code here that turns the phrase above into concrete actions
+//	    throw new PendingException();
+//	});
+//	
+//	Given("^the Home screen is being displayed$", () -> {
+//	    // Write code here that turns the phrase above into concrete actions
+//	    throw new PendingException();
+//	});
+//	
+//	When("^the Products button is tapped$", () -> {
+//	    // Write code here that turns the phrase above into concrete actions
+//	    throw new PendingException();
+//	});
+//	
+//	Then("^the Products will be displayed$", () -> {
+//	    // Write code here that turns the phrase above into concrete actions
+//	    throw new PendingException();
+//	});
+//	
+//	When("^the Reciepes button is tapped$", () -> {
+//	    // Write code here that turns the phrase above into concrete actions
+//	    throw new PendingException();
+//	});
+//	
+//	Then("^the Reciepes will be displayed$", () -> {
+//	    // Write code here that turns the phrase above into concrete actions
+//	    throw new PendingException();
+//	});
+//	
+//	When("^the Account button is tapped$", () -> {
+//	    // Write code here that turns the phrase above into concrete actions
+//	    throw new PendingException();
+//	});
+//	
+//	Then("^the Account will be displayed$", () -> {
+//	    // Write code here that turns the phrase above into concrete actions
+//	    throw new PendingException();
+//	});
+//	
+//	When("^the £(\\d+)\\.(\\d+) button is tapped$", (Integer arg1, Integer arg2) -> {
+//	    // Write code here that turns the phrase above into concrete actions
+//	    throw new PendingException();
+//	});
+//	
+//	Then("^the £(\\d+)\\.(\\d+) will be displayed$", (Integer arg1, Integer arg2) -> {
+//	    // Write code here that turns the phrase above into concrete actions
+//	    throw new PendingException();
+//	}
+
+}

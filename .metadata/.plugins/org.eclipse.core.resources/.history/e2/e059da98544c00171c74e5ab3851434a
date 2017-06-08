@@ -1,0 +1,61 @@
+package techtest.farmdrop.screenobjects;
+
+import io.appium.java_client.ios.IOSElement;
+
+public class FarmdropSO extends screenobject {
+
+	public Boolean exists(String screenName) {
+		return checkElementDisplayed(waitUntillTappable(screenName));
+	}
+	
+	public Boolean background_exists() {
+		return checkElementDisplayed(waitUntillTappable(perspectivetwocontent));
+	}
+	
+	public Boolean webview_exists() {
+		return checkElementDisplayed(waitUntillTappable(webviewcontent));
+	}
+	
+	public void full_article_tapped() {
+		tap_button(viewfullarticlebtn);
+	}
+	
+	public void swipe_article_direction(String SwipeDirection) throws InterruptedException {
+		swipe_in_direction(SwipeDirection);
+	}
+	
+	public Boolean perspective_content_displayed(String perspective) {
+		
+		switch (perspective) {
+		case "The Bad":
+			return checkElementDisplayed(waitUntillTappable(perspectiveonecontent));
+		case "The Other One":
+			return checkElementDisplayed(waitUntillTappable(perspectivetwocontent));
+		case "The Good":
+			return checkElementDisplayed(waitUntillTappable(perspectivethreecontent));
+		}
+		return false;
+	}
+
+	public boolean link_is_displayed()
+	{
+		return checkElementDisplayed(waitUntillTappable(articlelink));
+	}
+
+	public void link_tapped() {
+		tap_button(articlelink);
+	}
+
+	public boolean link_displays() {
+		return checkElementDisplayed(waitUntillTappable(webviewcontent));
+	}
+
+	public void tap_article_back_button() {
+		tap_button(articlebackbtn);
+	}
+	
+
+
+}
+
+}
